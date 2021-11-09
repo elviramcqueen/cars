@@ -1,0 +1,412 @@
+/*hej och välk0ommen till min css kod, ha en angenäm dag*/
+
+/* ALLA SIDOR */
+
+body{
+
+ background-color: rgb(80, 80, 80);
+ padding: 0;
+ margin: 0;
+}
+
+footer{
+
+  background-color: /*rgb(80, 80, 80);*/ #A81217;
+  margin-top: 10%;
+  height: 50%;
+
+}
+
+header{
+
+ background-color: rgb(80, 80, 80);
+ height: 75%;
+
+}
+
+
+ul{
+
+  list-style-type: none;
+  font-size: 21px;
+  text-align: center;
+
+}
+
+/* Header */
+
+#top{
+
+  background-color:rgb(80, 80, 80);
+
+
+}
+
+/* 'Cars' loggan */
+
+#title{
+
+width: 35%;
+height: auto;
+
+}
+
+/* Footer */
+
+.theend{
+
+  color: rgb(223, 172, 57);
+  font-family: magneto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 280%;
+  text-align: center;
+
+
+}
+/* The rock quote */
+
+.rock{
+
+ color: rgb(223, 172, 57);
+ font-size: 160%;
+ text-align: center;
+ font-family: bungee, sans-serif;
+ font-weight: 400;
+
+}
+
+/*basen av navigation baren*/
+
+.topnav {
+  background-color: #A81217;
+  overflow: hidden;
+  font-family: magneto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* style */
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* när man håller musen på*/
+
+.topnav a:hover {
+  background-color: #6C0D12;
+  color: white;
+}
+
+/* den sidan man är på*/
+
+.topnav a.active {
+
+  background-color:rgb(223, 172, 57);
+  color: #A81217;
+}
+
+/* HOME */
+
+
+/* Låda med annan färg*/
+.something{
+
+  background-color: rgb(154, 154, 154);
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+/* bilden på förstasidan*/
+#front{
+
+ width: 80%;
+ height: auto;
+ margin-top: 7%;
+ margin-left: 10%;
+
+}
+
+/* h1 */
+
+#home{
+
+  font-size: 500%;
+  text-align: center;
+  color: rgb(223, 172, 57);
+  font-family: magneto, sans-serif;
+  margin-top: 7%;
+  text-shadow: 5px 5px #6C0D12;
+  background-color: #A81217;
+
+}
+
+/* h2 */
+
+#about{
+
+ font-size: 200%;
+ font-family: bungee, sans-serif;
+ text-align: center;
+ color: black;
+
+}
+
+/* p(1) */
+
+#blixt{
+
+ font-size: 150%;
+ font-family: bungee, sans-serif;
+ text-align: center;
+ color: black;
+
+
+}
+
+/* h3 */
+
+#story{
+
+   font-size: 180%;
+   font-family: bungee, sans-serif;
+   text-align: center;
+   color: black;
+
+}
+
+/* p (2) */
+
+#paragraph{
+
+  font-size: 100%;
+  font-family: bungee, sans-serif;
+  text-align: left;
+  color: black;
+
+}
+
+/* h3 (2), med länk*/
+
+#charlink{
+
+  font-size: 150%;
+  font-family: bungee, sans-serif;
+  text-align: center;
+  color: black;
+
+}
+
+#fred{
+
+  font-family: bungee, sans-serif;
+  text-align: left;
+  font-size: 90%;
+  color: black;
+
+}
+
+
+/* Länk till toppen */
+
+.link{
+
+  font-size: 150%;
+  font-family: bungee, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #A81217;
+
+}
+
+/* MOVIES */
+
+
+/* Bilderna på filmerna*/
+
+.movies{
+
+  margin-top: 170px;
+
+}
+
+/* Titlarna på sidan (h1 & h2) */
+.mov{
+
+  font-family: magneto, sans-serif;
+  text-align: center;
+  font-size: 500%;
+  color: /*#A81217;*/ rgb(80, 80, 80);
+  text-shadow: 2px 2px /*#6C0D12;*/ rgb(48, 48, 48);
+  background-color: white;
+  opacity: 73%;
+  margin-left: 32%;
+  margin-right: 32%;
+  margin-top: 10%;
+
+
+}
+
+/* QUOTE-BOOK */
+
+
+/* All text på sidan */
+
+
+#quotes{
+
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: 15%;
+  margin-right: 15%;
+
+
+}
+
+/* Alla citat med länkar */
+
+.thunder {
+
+  margin-top: 20%;
+  margin-bottom: 20%;
+  color: black;
+  text-decoration: none;
+  font-size: 100%;
+
+}
+
+.thunder a:link {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+/* besökt länk */
+
+.thunder a:visited {
+
+  color: black;
+  text-decoration: none;
+
+}
+
+/* Länk när man hovrar */
+
+.thunder a:hover {
+
+  text-decoration: none;
+  color: rgb(223, 172, 57);
+
+}
+
+/* h1 */
+
+#qtb{
+
+  font-size: 500%;
+  text-align: center;
+  color: rgb(223, 172, 57);
+  font-family: magneto, sans-serif;
+  margin-top: 7%;
+  text-shadow: 5px 5px #6C0D12;
+  background-color: #A81217;
+
+
+}
+
+
+ /* Varje citat*/
+
+.q{
+
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+
+}
+
+/* "Kachow" quotet eftersom att den är viktigast, och ska vara störst*/
+#main{
+
+  font-size: 180%;
+
+}
+
+
+/* MOVIES */
+
+/* Bakgrundsbild */
+
+.par{
+
+  background-image: url("images/ass.png" );
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/*CHARACTERS*/
+
+/* fixerad bakgrundsbild */
+
+.wallpaper{
+
+  background-image: url("images/wow.jpeg" );
+  /*min-height: 500px;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+/* karaktärernas namn */
+
+.characters{
+
+  font-family: magneto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 130%;
+  color: /*rgb(223, 172, 57)*/ white;
+  text-shadow: 2px 2px /*#ff0000*/ rgb(91, 91, 91);
+  margin-top: 10%;
+  margin-bottom: 45%;
+
+}
+
+/*titlar på characters*/
+
+.char{
+
+  font-family: magneto, sans-serif;
+  text-align: center;
+  font-size: 500%;
+  color: rgb(80, 80, 80);
+  text-shadow: 2px 2px rgb(48, 48, 48);
+  background-color: white;
+  opacity: 70%;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-top: 10%;
+
+}

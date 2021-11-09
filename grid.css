@@ -1,0 +1,627 @@
+
+/* allt i head */
+
+.container{
+
+ display: grid;
+ grid-template-columns: 43% auto auto;
+ grid-template-rows: auto;
+
+}
+/* 'cars' loggan */
+
+#title{
+
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+/*HOME*/
+
+/* endast i 'home' */
+
+.index{
+
+ display: grid;
+ grid-template-columns: 20% auto 20%;
+ grid-auto-rows: auto auto auto auto auto auto auto auto auto;
+
+}
+
+/* Bilden */
+
+#front{
+
+  grid-column: 2/3;
+  grid-row: 4/5;
+
+}
+/* h2*/
+
+#about{
+
+ grid-column: 2/3;
+ grid-row: 6/7;
+
+
+}
+
+/* p (1)*/
+
+#blixt{
+
+  grid-column: 2/3;
+  grid-row: 8/9;
+
+}
+
+/* h3 */
+
+#story{
+
+ grid-column: 2/3;
+ grid-row: 10/11;
+
+}
+
+/* p (2) */
+
+#paragraph{
+
+
+  grid-column: 2/3;
+  grid-row: 12/13;
+
+}
+
+/* h3 (2)*/
+#charlink{
+
+  grid-column: 2/3;
+  grid-row: 14/15;
+
+}
+/* p(3) med länk till toppen*/
+
+#fred{
+
+ grid-column: 2/3;
+ grid-row: 15/16;
+
+}
+#ready{
+
+ grid-column: 2/3;
+ grid-row: 16/17;
+
+}
+
+.link{
+
+grid-column: 2/3;
+grid-row: 16/17;
+
+
+}
+
+/* Characters länken kommer att ligga under #front bilden om skärmen
+är mindre än 480px */
+
+@media only screen and (max-width: 480px){
+
+#charlink{
+
+ grid-column: 2/3;
+ grid-row: 5/6;
+
+}
+
+#fred{
+
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+#front{
+
+  grid-column: 2/3;
+  grid-row: 7/8;
+
+}
+
+
+#about{
+
+ grid-column: 2/3;
+ grid-row: 8/9;
+
+
+}
+
+
+#blixt{
+
+  grid-column: 2/3;
+  grid-row: 9/10;
+
+}
+
+
+#story{
+
+ grid-column: 2/3;
+ grid-row: 11/12;
+
+}
+
+
+
+#paragraph{
+
+
+  grid-column: 2/3;
+  grid-row: 13/14;
+
+}
+
+
+
+#ready{
+
+ grid-column: 2/3;
+ grid-row: 15/16;
+
+}
+
+.link{
+
+grid-column: 2/3;
+grid-row: 15/16;
+
+
+}
+}
+
+/*MOVIES*/
+
+/* filmerna (endast i movies) */
+
+.movies{
+
+  display: grid;
+  grid-template-columns: 5% auto auto auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 5%;
+
+/*317px 300px 300px*/
+
+}
+
+/*första filmen, bredare då den inte är lika
+hög som de andra bilderna*/
+
+#m1{
+
+  width: 85%;
+  height: auto;
+  grid-column: 2/3;
+}
+
+/* andra filmen*/
+
+#m2{
+
+  width: 80%;
+  height: auto;
+  grid-column: 3/4;
+
+
+}
+
+/* tredje filmen */
+
+#m3{
+
+  width: 80%;
+  height: auto;
+  grid-column: 4/5;
+
+
+}
+
+ /* CHARACTERS */
+
+.characters{
+
+  display: grid;
+  grid-template-columns: 1fr auto auto auto 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 7%;
+}
+
+/*bilderna*/
+
+#mcqueen{
+
+width: 80%;
+height: auto;
+grid-column: 2/3;
+grid-row: 1/2;
+
+}
+
+
+
+#mater{
+
+  width: 80%;
+  height: auto;
+  grid-column: 3/4;
+  grid-row: 1/2;
+
+}
+
+#sally{
+
+  width: 80%;
+  height: auto;
+  grid-column: 4/5;
+  grid-row: 1/2;
+
+}
+
+#chick{
+
+
+  width: 80%;
+  height: auto;
+  grid-column: 2/3;
+  grid-row: 3/4;
+
+}
+
+#francesco{
+
+  width: 80%;
+  height: auto;
+  grid-column: 3/4;
+  grid-row: 3/4;
+
+}
+
+#storm{
+
+  width: 80%;
+  height: auto;
+  grid-column: 4/5;
+  grid-row: 3/4;
+
+}
+
+#finn{
+
+  width: 80%;
+  height: auto;
+  grid-column: 2/3;
+  grid-row: 5/6;
+
+}
+
+#holley{
+
+  width: 80%;
+  height: auto;
+  grid-column: 3/4;
+  grid-row: 5/6;
+
+}
+
+#miles{
+
+  width: 80%;
+  height: auto;
+  grid-column: 4/5;
+  grid-row: 5/6;
+
+}
+
+#theking{
+
+ width: 80%;
+ height: auto;
+ grid-column: 2/3;
+ grid-row: 7/8;
+
+}
+
+#doc{
+
+  width: 80%;
+  height: auto;
+  grid-column: 3/4;
+  grid-row: 7/8;
+
+}
+
+#cruz{
+
+  width: 80%;
+  height: auto;
+  grid-column: 4/5;
+  grid-row: 7/8;
+
+}
+/* texten*/
+
+#li{
+
+grid-column: 2/3;
+grid-row: 2/3;
+
+}
+
+#ma{
+
+  grid-column: 3/4;
+  grid-row: 2/3;
+
+}
+
+#sa{
+
+  grid-column: 4/5;
+  grid-row: 2/3;
+
+
+}
+
+#ch{
+
+  grid-column: 2/3;
+  grid-row: 4/5;
+
+}
+
+#fr{
+
+  grid-column: 3/4;
+  grid-row: 4/5;
+
+}
+
+#ja{
+
+  grid-column: 4/5;
+  grid-row: 4/5;
+
+}
+
+#fi{
+
+ grid-column: 2/3;
+ grid-row: 6/7;
+
+}
+
+#ho{
+
+  grid-column: 3/4;
+  grid-row: 6/7;
+
+}
+
+#mi{
+
+  grid-column: 4/5;
+  grid-row: 6/7;
+
+}
+
+#th{
+
+grid-column: 2/3;
+grid-row: 8/9;
+
+}
+
+#do{
+
+  grid-column: 3/4;
+  grid-row: 8/9;
+
+}
+
+#cr{
+
+  grid-column: 4/5;
+  grid-row: 8/9;
+
+}
+
+
+/* När skärmen är mindre än 480px flyttar all bild och text
+till en i varje rad (det är fel i den och sidan är 'för kort')*/
+
+@media only screen and (max-width: 480px){
+
+/* hamnar inte på rätt ställe */
+
+  footer{
+
+   grid-row: 24/25;
+   grid-column: 1/5;
+
+  }
+
+
+ #mcqueen{
+
+   grid-column: 3/4;
+   grid-row: 1/2;
+
+ }
+
+#li{
+
+  grid-column: 3/4;
+  grid-row: 2/3;
+
+}
+
+#mater{
+
+  grid-column: 3/4;
+  grid-row: 3/2;
+
+}
+
+#ma{
+
+  grid-column: 3/4;
+  grid-row: 3/4;
+
+}
+
+#sally{
+
+  grid-column: 3/4;
+  grid-row: 4/5;
+
+}
+
+#sa{
+
+  grid-column: 3/4;
+  grid-row: 5/6;
+
+}
+
+#chick{
+
+  grid-column: 3/4;
+  grid-row: 6/7;
+
+}
+
+#ch{
+
+  grid-column: 3/4;
+  grid-row: 7/8;
+
+}
+
+#francesco{
+
+  grid-column: 3/4;
+  grid-row: 8/9;
+
+}
+
+#fr{
+
+  grid-column: 3/4;
+  grid-row: 9/10;
+
+}
+
+#storm{
+
+  grid-column: 3/4;
+  grid-row: 10/11;
+
+}
+
+#ja{
+
+ grid-column: 3/4;
+ grid-row: 11/12
+
+}
+
+#finn{
+
+  grid-column: 3/4;
+  grid-row: 12/13;
+
+}
+
+#fi{
+
+  grid-column: 3/4;
+  grid-row: 13/14;
+
+}
+
+#holley{
+
+  grid-column: 3/4;
+  grid-row: 14/15;
+
+}
+
+#ho{
+
+  grid-column: 3/4;
+  grid-row: 15/16;
+
+}
+
+#miles{
+
+ grid-column: 3/4;
+ grid-row: 16/17;
+
+}
+
+#mi{
+
+ grid-column: 3/4;
+ grid-row: 17/18;
+
+}
+
+#theking{
+
+ grid-column: 3/4;
+ grid-row: 18/19;
+
+}
+
+#th{
+
+  grid-column: 3/4;
+  grid-row: 19/20;
+}
+
+#doc{
+
+ grid-column: 3/4;
+ grid-row: 20/21;
+
+}
+
+#do{
+
+ grid-column: 3/4;
+ grid-row: 21/22;
+
+}
+
+#cruz{
+
+  grid-column: 3/4;
+  grid-row: 22/23;
+
+}
+
+#cr{
+
+  grid-column: 3/4;
+  grid-row: 23/24;
+
+}
+
+}
+
+
+/* QUOTE-BOOK*/
