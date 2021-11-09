@@ -77,6 +77,12 @@ height: auto;
 
 }
 
+.rock a{
+
+ text-decoration: none;
+
+}
+
 /*basen av navigation baren*/
 
 .topnav {
