@@ -275,6 +275,17 @@ height: auto;
 
 }
 
+@media (max-width: 480px){
+
+  .mov{
+
+    background-color: transparent;
+    font-size: 3em;
+    color: white;
+
+  }
+}
+
 /* QUOTE-BOOK */
 
 
@@ -347,6 +358,7 @@ height: auto;
 
 
 }
+
 
 
  /* Varje citat*/
@@ -429,5 +441,19 @@ height: auto;
   margin-left: 28%;
   margin-right: 28%;
   margin-top: 10%;
+
+}
+
+@media (max-width: 480px){
+
+
+ .char{
+
+   font-size: 3em;
+   background-color: transparent;
+
+ }
+
+
 
 }
