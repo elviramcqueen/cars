@@ -1,11 +1,12 @@
 
-/* allt i head */
+/* allt i headern */
 
 .container{
 
  display: grid;
- grid-template-columns: 43% auto auto;
+ grid-template-columns: repeat(3,1fr);
  grid-template-rows: auto;
+ justify-items: center;
 
 }
 /* 'cars' loggan */
@@ -14,6 +15,7 @@
 
   grid-column: 2/3;
   grid-row: 1/2;
+
 }
 
 /*HOME*/

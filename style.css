@@ -91,6 +91,8 @@ height: auto;
   font-family: magneto, sans-serif;
   font-style: normal;
   font-weight: 700;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* style */
@@ -128,6 +130,18 @@ height: auto;
   background-color: rgb(154, 154, 154);
   margin-left: 15%;
   margin-right: 15%;
+
+}
+
+@media (max-width: 480px){
+
+
+.something{
+
+  background-color: rgb(80, 80, 80);
+
+}
+
 
 }
 
