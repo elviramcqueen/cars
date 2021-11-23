@@ -402,7 +402,7 @@ height: auto;
 .wallpaper{
 
   background-image: url("images/wow.jpeg" );
-  min-height: 1000px;
+  min-height: 3000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -455,5 +455,31 @@ height: auto;
  }
 
 
+.wallpaper{
 
+  min-height: 8000px;
+}
+
+.theend{
+
+  font-size: 120%;
+
+}
+
+.rock{
+
+ font-size: 90%;
+
+}
+
+footer{
+
+  height: 50px;
+}
+
+}
+
+.medsten{
+
+  height: 80%;
 }
